@@ -543,3 +543,238 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 960px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.h-\[3000px\] {
+  height: 3000px;
+}
+
+.h-\[640px\] {
+  height: 640px;
+}
+
+.max-w-\[1920px\] {
+  max-width: 1920px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-hero {
+  background-image: url(/assets/hero/bg.jpg);
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: "vazir";
+
+  src: url("../assets/vazirmatn-v33.003/fonts/ttf/Vazirmatn-Medium.ttf");
+}
+
+@font-face {
+  font-family: "vazir-digits";
+
+  src: url("../assets/vazirmatn-v33.003/misc/Farsi-Digits/fonts/ttf/Vazirmatn-FD-Black.ttf");
+}
+
+* {
+  font-family: vazir;
+  direction: rtl;
+}
+
+.number {
+  font-family: vazir-digits;
+}
+
+body {
+  font-size: 22px;
+  --tw-text-opacity: 1;
+  color: rgb(77 80 83 / var(--tw-text-opacity));
+}
+
+a {
+  font-size: 20px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(205 162 71 / var(--tw-text-opacity));
+}
+
+h1,h2,h3,h4,h5,h6 {
+  --tw-text-opacity: 1;
+  color: rgb(41 63 54 / var(--tw-text-opacity));
+}
+
+.h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+@media (min-width: 960px) {
+  .h1 {
+    font-size: 84px;
+  }
+}
+
+.h2 {
+  font-size: 50px;
+  line-height: 1.25;
+}
+
+.h3 {
+  font-size: 25px;
+}
+
+.btn {
+  display: flex;
+  height: 75px;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.btn-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 63 54 / var(--tw-bg-opacity));
+}
+
+.btn-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 62 74 / var(--tw-bg-opacity));
+}
+
+.btn-accent {
+  --tw-bg-opacity: 1;
+  background-color: rgb(205 162 71 / var(--tw-bg-opacity));
+}
+
+.btn-accent:hover {
+  background-color: b88c5d;
+}
+
+@media (min-width: 960px) {
+  .lg\:bg-cover {
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1200px) {
+  .xl\:h-\[840px\] {
+    height: 840px;
+  }
+
+  .xl\:rounded-bl-\[290px\] {
+    border-bottom-left-radius: 290px;
+  }
+
+  .xl\:bg-grid {
+    background-image: url(/assets/grid.png);
+  }
+
+  .xl\:bg-center {
+    background-position: center;
+  }
+
+  .xl\:bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+}
