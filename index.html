@@ -11,23 +11,27 @@
     </head>
     <body class="bg-gray-100">
         <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
-            <div class="container mx-auto flex justify-between h-full items-center">
+            <div
+                class="container mx-auto flex justify-between h-full items-center">
                 <nav>
                     <div class="cursor-pointer lg:hidden" id="nav-tigger-btn">
                         <i class="ri-menu-4-line text-4xl text-primary"></i>
                     </div>
-                    <ul class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300"
-                    id="nav-menu">
-                        <li><a href="#">خانه</a></li>
-                        <li><a href="#">درباره ما</a></li>
-                        <li><a href="#">جوایز</a></li>
-                        <li><a href="#">کار ما</a></li>
-                        <li><a href="#">اخبار</a></li>
-                        <li><a href="#">تماس با ما</a></li>
+                    <ul
+                        class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 gap-x-7 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300"
+                        id="nav-menu">
+                        <li class="hover:scale-105"><a href="#">خانه</a></li>
+                        <li class="hover:scale-105"><a href="#">درباره
+                                ما</a></li>
+                        <li class="hover:scale-105"><a href="#">جوایز</a></li>
+                        <li class="hover:scale-105"><a href="#">کار ما</a></li>
+                        <li class="hover:scale-105"><a href="#">اخبار</a></li>
+                        <li class="hover:scale-105"><a href="#">تماس با
+                                ما</a></li>
                     </ul>
                 </nav>
                 <a href="#">
-                    <img src="assets/logo.svg" alt="."/>
+                    <img src="assets/logo.svg" alt="." />
                 </a>
             </div>
         </header>
@@ -55,7 +59,57 @@
                 </div>
             </section>
 
-            
+            <div class="steps mt-[80px] xl:mt-[200px] relative z-20">
+                <div class="container mx-auto">
+                    <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
+                        <div class="steps__step text-center">
+                            <div class="mb-4">
+                                <i
+                                    class="ri-compasses-2-line text-5xl text-accent"></i>
+                            </div>
+                            <h3 class="mb-5 h3">برنامه ریزی پروژه</h3>
+                            <p class="mb-5 max-w-md mx-auto">لورم ایپسوم متن
+                                ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                                استفاده از طراحان گرافیک است.
+                            </p>
+                            <a href="#" class="font-medium flex justify-center gap-2">
+                                ادامه مطلب
+                                <i class="ri-arrow-left-line text-accent"></i>
+                            </a>
+                        </div>
+                        <div class="steps__step text-center">
+                            <div class="mb-4">
+                                <i
+                                    class="ri-magic-line text-5xl text-accent"></i>
+                            </div>
+                            <h3 class="mb-5 h3">مواد اولیه</h3>
+                            <p class="mb-5 max-w-md mx-auto">لورم ایپسوم متن
+                                ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                                استفاده از طراحان گرافیک است.
+                            </p>
+                            <a href="#" class="font-medium flex justify-center gap-2">
+                                ادامه مطلب
+                                <i class="ri-arrow-left-line text-accent"></i>
+                            </a>
+                        </div>
+                        <div class="steps__step text-center">
+                            <div class="mb-4">
+                                <i
+                                    class="ri-tools-line text-5xl text-accent"></i>
+                            </div>
+                            <h3 class="mb-5 h3">اجرای پروژه</h3>
+                            <p class="mb-5 max-w-md mx-auto">لورم ایپسوم متن
+                                ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                                استفاده از طراحان گرافیک است.
+                            </p>
+                            <a href="#" class="font-medium flex justify-center gap-2">
+                                ادامه مطلب
+                                <i class="ri-arrow-left-line text-accent"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="h-[3000px]"></div>
         </main>
         <script src="js/scrollreveal.min.js"></script>
