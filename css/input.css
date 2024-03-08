@@ -19,6 +19,7 @@
 
 .number {
   font-family: vazir-digits;
+  direction: ltr;
 }
 
 body {
