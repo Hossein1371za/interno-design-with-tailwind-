@@ -26,3 +26,31 @@ const swiper = new Swiper(".swiper", {
       },
   },
 });
+
+const sr = ScrollReveal({
+  origin:"bottom",
+  distance: "60px",
+  duration:3000,
+  delay:600,
+  reset:"true",
+})
+
+sr.reveal('.hero__text',{origin:"top"})
+
+
+sr.reveal('.steps__step',{distance:"100px",interval:100})
+
+
+sr.reveal('.about__text',{origin:"right"})
+sr.reveal('.about__img',{origin:"left",delay:800})
+
+
+sr.reveal('.testimonial__bg',{delay:800})
+sr.reveal('.testimonial__title')
+sr.reveal('.testimonial__slider',{delay:1000})
+
+
+sr.reveal('.brands__image',{delay:600,distance:"100px",interval:100})
+
+
+ 
