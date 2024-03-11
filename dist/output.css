@@ -671,6 +671,10 @@ video {
   margin-top: ;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -877,6 +881,11 @@ video {
   row-gap: 56px;
 }
 
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -984,6 +993,11 @@ video {
 .py-\[\] {
   padding-top: ;
   padding-bottom: ;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pb-\[110px\] {
@@ -1344,6 +1358,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .xl\:border-l {
     border-left-width: 1px;
+  }
+
+  .xl\:border-t {
+    border-top-width: 1px;
   }
 
   .xl\:border-accent {
