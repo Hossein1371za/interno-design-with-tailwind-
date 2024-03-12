@@ -29,7 +29,7 @@ const swiper = new Swiper(".swiper", {
 
 const sr = ScrollReveal({
   origin:"bottom",
-  distance: "60px",
+  distance: "80px",
   duration:3000,
   delay:600,
   reset:"true",
@@ -63,7 +63,20 @@ sr.reveal('.stats__item',{
   interval:100,
 })
 
+sr.reveal('.news__title')
+sr.reveal('.news__subtitle',{delay:800})
+sr.reveal('.news__item',{
+  distance:"100px",
+  interval:100,
+  delay:1000,
+})
+
+sr.reveal('.contact__container')
+sr.reveal('.contact__text',{delay:800})
 
 
-
- 
+sr.reveal('.footer__item',{
+  distance:"100px",
+  interval:100,
+})
+sr.reveal('.footer__copyright')
